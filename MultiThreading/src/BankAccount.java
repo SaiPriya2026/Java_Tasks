@@ -9,10 +9,6 @@ public class BankAccount {
         this.accNumber = accNumber;
     }
 
-    public String getAccNumber() {
-        return accNumber;
-    }
-
     public List<String> getTransactions() {
         return Arrays.asList("TX1", "TX2", "TX3");
     }
