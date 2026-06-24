@@ -17,4 +17,7 @@ public class Book {
     private String title;
     private String author;
     private String genre;
+    private String imagePath;
+    private String filePath;
+    private boolean active = true;
 }
